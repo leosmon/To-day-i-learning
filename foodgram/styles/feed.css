@@ -1,0 +1,74 @@
+body{
+    background-color: rgb(235, 235, 235);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+}
+
+/* estilo do header(banner,logo,botoes... */
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+    margin-bottom: 50px;
+}
+
+#logoHead{
+    width: 300px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+header p#bemvindo{
+    margin-right: 100px;
+}
+header a{
+    text-decoration: none;
+}
+header p#cadastro{
+    box-sizing: border-box;
+    border-radius: 5px;
+    padding: 3px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    background-color:#e02041;
+    font-style: bold;
+    color: azure;
+    font-size: 70%;
+    margin-right: 10px;
+    
+}
+
+header button{
+    height: 30px;
+    width: 32px;
+}
+
+/* Estilo do feed */
+
+
+section{
+    display: grid;
+    justify-content: center;
+    align-items: center;   
+    
+    
+
+}
+.post img{
+    /*foto no feed configuração */
+    width: 100%;
+    height: 88%;
+}
+
+.post{
+    /* dimensionando e ajustando o feed */
+    width: 500px;
+    height: 450px;
+    padding: 7px;
+    padding-top: 9px;
+    background-color: white;
+    box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.75);
+    margin-bottom: 20px;
+    border-radius: 7px;
+    border: 1px solid grey;
+    
+}
