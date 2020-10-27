@@ -1,0 +1,101 @@
+:root{
+    --vermelho:#E50914;
+    --preto:#141414;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+
+}
+
+body{
+    background-color: var(--preto);
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+header.container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+img{
+    margin-right: 5px;
+    width: 30px;
+    height: 30px;
+}
+
+nav.notificacao{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.logo{
+    margin-left: 5px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: var(--vermelho);
+    font-size: 40px;
+    font-weight: 1000;
+}
+
+.container a{
+    text-decoration: none;
+    color:  #AAA;   
+    margin-right: 10px;
+
+}
+.container a:hover{
+    color: var(--vermelho);
+}
+
+/* conteudo do filme principal */
+
+.filme-principal{
+    font-size: 16px;
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url("/img/unnamed.jpg");
+
+    height: 400px;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.filme-principal .descricao{
+    margin-bottom: 40px;
+    margin-top: 10px;
+
+}
+
+.titulo{
+    margin-top: 5%;
+    font-size: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.botao{
+    
+    padding: 15PX 30px;
+    color: white;
+    background-color: rgba(0,0,0,.50);
+    border:0;
+    margin-left: 15px;
+    cursor: pointer;
+}
+.botao:hover{
+    background-color: var(--vermelho);
+    transition: 2s;
+    
+}
+
+
+
+
+
+
